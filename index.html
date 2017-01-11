@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A random quote machine for a Free Code Camp challenge.">
+		<title>Random Quote Machine</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Revalia">
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/animate.css">
+		<script src="https://use.fontawesome.com/90c256b7c7.js"></script>
+	</head>
+	<body>
+		<main class="container-fluid">
+			<div id="quoteBox">
+				<h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Random Quote Machine <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></h1>
+				<blockquote id="quoteText">
+					It works! Now how do I charge Bitcoins for this?
+					<footer id="quoteAuthor">Vizij</footer>
+				</blockquote>
+				<div class="row">
+					<div class="col-xs-4">
+						<a id="tweetButton" class="btn btn-info" href="https://twitter.com/intent/tweet?text=Generate%20a%20quote%20first%21" target="_blank"><span class="fa fa-twitter" aria-hidden="true"></span> Tweet Me!</a>
+					</div>
+					<div class="col-xs-4 col-xs-offset-4">
+						<button id="cycleButton" class="btn btn-info"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
